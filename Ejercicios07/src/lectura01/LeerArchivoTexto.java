@@ -71,11 +71,11 @@ public class LeerArchivoTexto {
                 String linea = entrada.nextLine();
                 List<String> lista = Arrays.asList(linea.split(";"));
                 ArrayList<String> linea_partes = new ArrayList<>(lista);
-                // for (int i = 0; i < linea_partes.size(); i++) {
-                    System.out.println(linea_partes.get(2));
-                // }
+                 for (int i = 0; i < linea_partes.size(); i++) {
+                    System.out.println(linea_partes.get(i));
+                 }
                 System.out.println("-----------------------------------");
-
+                 
             } // fin de while
             entrada.close();
         } // fin de try
